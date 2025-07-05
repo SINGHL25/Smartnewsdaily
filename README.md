@@ -31,6 +31,17 @@
 - `users`: `{uid, email, preferences, favorites}`
 - `ads`: `{id, title, image_url, target_link}`
 
+favorites/
+  └── {user_id}/
+      └── articles/
+          └── {auto_doc_id}:
+                title: "...",
+                description: "...",
+                imageUrl: "...",
+                url: "...",
+                savedAt: timestamp
+
+
 ---
 
 ## 🚀 Features in Progress
