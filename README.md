@@ -1,4 +1,19 @@
 # SmartNewsDaily - Flutter News Aggregator
+## 🔧 Tech Stack
+
+- **Frontend**: Flutter (Web + Android + iOS)
+- **Backend**: Firebase (Firestore, Auth, Hosting), FastAPI (optional proxy/API)
+- **Database**: Firebase Firestore or MongoDB (optional for expansion)
+- **APIs**: NewsAPI.org, Inshorts (scraped), Custom RSS feeds
+- **Features**:
+  - Real-time categorized news (Business, Health, Food, etc.)
+  - Multi-language (English + Hindi)
+  - Text-to-speech
+  - Bookmarking and Favorites
+  - Advertisement banners (preloaded/demo)
+  - Premium article toggle (subscription-only)
+  - Daily newsletter via email
+  - Responsive web version (hosted via Firebase or FlutterFlow)
 
 ## 🔐 Firebase Setup
 
